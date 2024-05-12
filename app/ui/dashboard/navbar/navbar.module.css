@@ -1,0 +1,50 @@
+.container {
+  padding: 20px;
+  /* background-color: var(--bgSoft); */
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  top: 5px;
+  z-index: 10;
+  /* box-shadow: 0 20px 20px rgba(10, 52, 120, 1.5); Add a shadow with blur */
+  backdrop-filter: blur(10px); /*Apply blur effect to the backdrop*/
+}
+
+.title {
+  color: var(--textSoft);
+  font-weight: bold;
+  text-transform: capitalize;
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.search {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  background-color: #2e374a;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.input {
+  background-color: transparent;
+  border: none;
+  color: var(--text);
+  outline: none;
+}
+.icons {
+  display: flex;
+  gap: 20px;
+  cursor: pointer;
+}
+.containerIcons {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
